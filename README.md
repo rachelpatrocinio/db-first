@@ -15,3 +15,6 @@
 
 ### SELEZIONARE TUTTI I CORSI DI LAUREA MAGISTRALE (38)
 - SELECT * FROM `degrees` WHERE `level` = 'magistrale';
+
+### DA QUANTI DIPARTIMENTI E' COMPOSTA L'UNIVERSITA'?
+- SELECT COUNT(*) AS `university_departments` FROM `departments`;
