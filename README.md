@@ -22,4 +22,4 @@
 - SELECT COUNT(*) AS `university_departments` FROM `departments`;
 
 ### QUANTI SONO GLI INSEGNANTI CHE NON HANNO UN NUMERO DI TELEFONO? (50)
-- SELECT * FROM `teachers` WHERE `phone` IS NULL;
+- SELECT COUNT(*) `teachers_withouth_number` FROM `teachers` WHERE `phone` IS NULL;
