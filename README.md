@@ -11,7 +11,7 @@
 - SELECT * FROM `courses` WHERE `period` = 'I semestre' AND `year`=1;
 
 ### SELEZIONARE TUTTI GLI APPELLI D'ESAME CHE AVVENGONO NEL POMERIGGIO (DOPO LE 14) DEL 20/06/2020 (21)
-- SELECT * FROM `exams` WHERE `date` = '2020-06-20' AND `hour` LIKE '14%';
+- SELECT * FROM `exams` WHERE `date` = '2020-06-20' AND `hour` BETWEEN '14:00:00' AND '23:59:59';
 
 ### SELEZIONARE TUTTI I CORSI DI LAUREA MAGISTRALE (38)
 - SELECT * FROM `degrees` WHERE `level` = 'magistrale';
